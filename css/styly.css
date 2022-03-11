@@ -4,16 +4,16 @@ body {
   background-color: lightgray;
 }
 
-/* Selektor pro odd�l ozna�en� ID obal */ {
+obal {
   /* Maxim�ln� ���ka 960 px */
   /* Nastav okraje tak, aby byl blok obal na str�nce vycentrov�n */
   /* Ohrani�en� - pln� �ed� ��ra o tlou��ce 1 pixel  */
   /* Vnit�n� odsazen� - 20 pixel� */
-  /* B�l� barva pozad� */
+  /* B�l� barva pozad� */background-color: white;
   /* Barva textu - tmav� �ed� odst�n, �estn�ctkov� hodnoty 3 */
 }
 
-/* Selektor pro zna�ku nav */ {
+nav {
   background-color: #222;
   margin: -20px;
   margin-bottom: 20px;
@@ -22,9 +22,9 @@ body {
   color: lightgray;
 }
 
-/* Pro v�echny odkazy v bloku navigace */ {
+a {
   padding: 19px;
-  /* Odkazy nebudou podtr�eny */
+  text-decoration:solid;
   color: lightgray;
 }
 
